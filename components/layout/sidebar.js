@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { LayoutDashboard, Users, Home, Settings, LogOut, Shield } from "lucide-react"
 
-const sidebarItems = [
+export const sidebarItems = [
     {
         title: "Dashboard",
         href: "/dashboard",
